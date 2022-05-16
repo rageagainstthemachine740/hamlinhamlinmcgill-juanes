@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+/**helpers**/
+.border{
+    border: 1px solid black;
+}
+.hlp-size{
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0;
+}
+.hlp-height{
+    height: 95vh;
+}
+.white{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.fix-padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+.padding-20{
+    padding-top: 20px;
+}
+/*.padding-l-35{
+    padding-left: 35px;
+}*/
+.padding-b-20px{
+    padding-bottom: 20px;
+}
+.fix-gutter{
+    --bs-gutter-x: 0;
+}
+/**index**/
+.bg-index{
+    background-image: url(../public/img/bg-index.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.caja2{
+    height: 100%;
+}
+nav{
+    box-sizing: border-box;
+}
+.index__main-title{
+    text-decoration: underline;
+    padding: 90px  30px    40px    30px;
+}
+.index__main-description{
+    font-size: 20px;
+    padding: 0px  30px    35px    30px;
+}
+.index__main-h2{
+    padding: 0px  30px  100px    30px;
+    font-size: 35px;
+}
+.index__main-link{
+    color: black;
+    text-decoration: none;
+}
+/********************contact-us**************************/
+.bg-contact{
+    background-image: url(../public/img/bg-contact.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-box1{
+    padding: 25px 0 25px 80px;
+    background-color: rgba(255, 255, 255, 0.486);
+    background-position: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    
+}
+.contact-box2{
+    padding: 25px 0 25px 80px;
+    background-color: rgba(255, 255, 255, 0.486);
+    background-position: center;
+    margin-top: 28px;
+    margin-bottom: 27px;
+}
+.contact-us__main-title{
+    padding: 15px 0  30px   10px;
+    color: black;
+    text-align: center;
+}
+.contact-us__main-description{
+    font-size: 20px;
+    padding: 0px  30px    30px    30px;
+    /*text-align: center;*/
+}
+.margin{
+    margin: 0   5px 0   5px;
+}
+/*footer*/
+.footer{
+    color: white;
+    height: 45px;
+    padding: 0%;
+    margin: 0;
+}
